@@ -1,0 +1,44 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(195, 195, 253);
+    margin: 15px;
+    padding: 20px;
+}
+
+.form-outline { 
+    /* The display box */
+    max-width: 500px;
+    background: white;
+    padding: 55px; /* how big the box is */
+    margin: 10px; /* the margin from the borders to the website */
+    border-radius: 20px; /* round the corners */
+    box-shadow: 6px 8px 15px rgba(0,0,0,0.3); /* 0 (right) 0px (bottom) 0px (faded around) */
+}
+
+label {
+    display: flex;  /* how the labels are displayed in the box */
+    margin-top: 20px; /* space between the labels */
+    font-weight: 700; /* how thick the text is */
+}
+
+input, textarea {
+    width: 100%; /* the width of the textbox */
+    padding: 10px; /* how big the textbox is */
+    margin-top: 8px; /* space between the label and textbox */
+    border: 3px solid rgb(204, 204, 204); /* the border style and size */
+    border-radius: 10px; 
+}
+
+button {
+    margin-top: 50px; /* distance of button from top */
+    padding: 10px 10px; /* tall width */
+    background-color: rgb(221, 221, 254);
+    content: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; /* what the cursor looks like when hovered over */
+}
+
+button:hover {
+    background-color: rgb(183, 123, 239);
+}
