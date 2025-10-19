@@ -5,7 +5,7 @@ body {
     padding: 20px;
 }
 
-.form-outline { 
+.form_outline { 
     /* The display box */
     max-width: 500px;
     background: white;
