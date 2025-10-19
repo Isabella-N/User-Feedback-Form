@@ -56,3 +56,13 @@ form.addEventListener("submit", (e) => {
   comments.value = ""
   charCount.textContent = "Characters: 0"
 })
+
+// Prevents background clicks from triggering form-related events
+document.body.addEventListener("click", (e) => {
+  console.log("The background has been clicked")
+})
+
+// Prevents from any events from bubbling 
+form.addEventListener("click", (e) => {
+  e.stopPropagation()
+})
