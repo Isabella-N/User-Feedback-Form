@@ -42,3 +42,13 @@ button {
 button:hover {
     background-color: rgb(183, 123, 239);
 }
+
+.tooltip {
+  display: none; 
+  position: absolute;
+  background: rgb(183, 123, 239);
+  color: rgb(0, 0, 0); /* Text color */
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
